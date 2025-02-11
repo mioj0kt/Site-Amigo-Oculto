@@ -1,0 +1,98 @@
+/* Reset básico para garantir que a página tenha um estilo consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; 
+    color: #333; 
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    position: relative;
+}
+
+
+/*============================= Botão de config ============================*/
+
+a {
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+a button {
+    background-color: #3498db;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+a button:hover {
+    background-color: #2980b9;
+}
+
+/*==========================================================================*/
+
+
+/*============================ Botão de sorteio ============================*/
+
+button {
+    border-radius: 10px;
+    border-color: black;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #39853d; 
+}
+
+/*==========================================================================*/
+
+
+#mensagem {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+#nomeSort {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+
+
+/* Responsividade para os celulares */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    /* Tamanho do botão maior */
+    button {
+        padding: 18px 35px; 
+        font-size: 18px; 
+    }
+
+    /* Tamanho da fonte maior */
+    #mensagem, #nomeSort {
+        font-size: 22px;
+        margin-top: 25px;
+    }
+}
