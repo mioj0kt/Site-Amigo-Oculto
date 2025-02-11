@@ -18,20 +18,19 @@ body {
     position: relative;
 }
 
-
 /*============================= Botão de config ============================*/
 
 a {
     text-decoration: none;
     position: absolute;
-    top: 20px;
-    left: 10px;
+    top: 25px;
+    left: 15px;
 }
 
 a button {
     background-color: #3498db;
-    padding: 10px 20px;
-    font-size: 14px;
+    padding: 8px 18px;
+    font-size: 16px;
     border-radius: 5px;
 }
 
@@ -45,14 +44,14 @@ a button:hover {
 /*============================ Botão de sorteio ============================*/
 
 button {
-    border-radius: 10px;
+    border-radius: 12px;
     border-color: black;
     background-color: #4CAF50;
     color: white;
-    padding: 15px 30px;
-    font-size: 16px;
+    padding: 16px 30px;
+    font-size: 18px;
     cursor: pointer;
-    margin: 10px 0;
+    margin: 12px 0;
 }
 
 button:hover {
@@ -63,19 +62,18 @@ button:hover {
 
 
 #mensagem {
-    margin-top: 20px;
-    font-size: 18px;
+    margin-top: 25px;
+    font-size: 22px;
     font-weight: bold;
     color: #27ae60;
 }
 
 #nomeSort {
-    margin-top: 20px;
-    font-size: 20px;
+    margin-top: 25px;
+    font-size: 24px;
     font-weight: bold;
     color: #27ae60;
 }
-
 
 
 /* Responsividade para os celulares */
