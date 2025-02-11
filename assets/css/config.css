@@ -20,26 +20,26 @@ body {
 
 .container {
     width: 100%;
-    max-width: 500px; 
-    padding: 15px;
+    max-width: 700px; 
+    padding: 30px;
     background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 h1 {
-    font-size: 20px; 
-    margin-bottom: 10px; 
+    font-size: 28px; 
+    margin-bottom: 20px; 
 }
 
 #nomeInput {
-    padding: 8px;
+    padding: 16px;
     width: 100%;
-    font-size: 14px; 
+    font-size: 18px; 
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     box-sizing: border-box;
 }
 
@@ -47,14 +47,14 @@ h1 {
 /*=========================== Botão adicionar ==============================*/
 
 #adicionarNomeBtn {
-    padding: 8px 16px;
+    padding: 16px 24px;
     background-color: #4CAF50;
     color: white;
-    font-size: 14px;
+    font-size: 18px;
     border-radius: 5px;
     border-color: black;
     cursor: pointer;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #adicionarNomeBtn:hover {
@@ -69,34 +69,34 @@ h1 {
 #listaNomes {
     list-style-type: none;
     padding: 0;
-    margin: 15px 0;
+    margin: 25px 0;
 }
 
 #listaNomes li {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px; 
-    margin-bottom: 8px;
+    font-size: 20px; 
+    margin-bottom: 15px;
     position: relative;
 }
 
 #mensagem {
-    margin-top: 8px;
-    font-size: 14px;
+    margin-top: 15px;
+    font-size: 18px;
     font-weight: bold;
     color: #27ae60;
 }
 
 button.remover {
     background-color: #e74c3c;
-    padding: 5px 8px;
-    font-size: 12px; 
+    padding: 10px 14px;
+    font-size: 16px; 
     border-radius: 5px;
     border-color: black;
     color: white;
     cursor: pointer;
-    margin-left: 8px;
+    margin-left: 15px;
     transition: background-color 0.3s ease;
 }
 
@@ -111,13 +111,13 @@ button.remover:hover {
 
 a button {
     background-color: #3498db;
-    padding: 8px 16px;
-    font-size: 14px;
+    padding: 16px 24px;
+    font-size: 18px;
     border-radius: 5px;
     text-decoration: none;
     color: white;
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 a button:hover {

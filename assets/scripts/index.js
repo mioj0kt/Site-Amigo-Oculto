@@ -53,8 +53,8 @@ function sortearNome() {
             const nomeSorteado = listaNomes[chaveSorteada];
 
             // Exibir o nome sorteado na tela
-            const mensagem = document.getElementById("nomeSort");
-            mensagem.textContent = `O nome sorteado foi: ${nomeSorteado}`;
+            const mensagem = document.getElementById("sorteado");
+            mensagem.innerHTML = `<p id="nomeSort">O nome sorteado foi: <span style="font-size: 40px">${nomeSorteado}</span></p>`
 
             // Remover o nome sorteado do banco de dados
             removerNome(chaveSorteada);

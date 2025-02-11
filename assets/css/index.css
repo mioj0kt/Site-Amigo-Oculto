@@ -24,14 +24,15 @@ a {
     text-decoration: none;
     position: absolute;
     top: 25px;
-    left: 15px;
+    left: 25px;
 }
 
 a button {
     background-color: #3498db;
-    padding: 8px 18px;
-    font-size: 16px;
-    border-radius: 5px;
+    padding: 14px 22px;
+    font-size: 26px;
+    border-radius: 15px;
+    border: 2px solid black;
 }
 
 a button:hover {
@@ -48,10 +49,12 @@ button {
     border-color: black;
     background-color: #4CAF50;
     color: white;
-    padding: 16px 30px;
-    font-size: 18px;
+    padding: 32px 72px;
+    font-size: 30px;
     cursor: pointer;
     margin: 12px 0;
+    border-radius: 15px;
+    border: 2px solid black;
 }
 
 button:hover {
@@ -68,7 +71,7 @@ button:hover {
     color: #27ae60;
 }
 
-#nomeSort {
+#sorteado {
     margin-top: 25px;
     font-size: 24px;
     font-weight: bold;
@@ -89,8 +92,8 @@ button:hover {
     }
 
     /* Tamanho da fonte maior */
-    #mensagem, #nomeSort {
-        font-size: 22px;
+    #mensagem, #sorteado {
+        font-size: 19px;
         margin-top: 25px;
     }
 }
