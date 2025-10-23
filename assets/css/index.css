@@ -76,8 +76,30 @@ button:hover {
     font-size: 24px;
     font-weight: bold;
     color: #27ae60;
+    text-align: center; 
 }
 
+/* Estilos para o botão "Sim" de Sortear Novamente */
+.sortear-novamente-btn {
+    /* Base do estilo */
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-top: 10px; /* Espaçamento do texto acima */
+    transition: background-color 0.3s ease; /* Transição suave para o efeito hover */
+    display: block; /* Para garantir que o botão seja um bloco e possa usar margem auto */
+    margin-left: auto; /* Centraliza o botão */
+    margin-right: auto; /* Centraliza o botão */
+}
+
+/* Efeito Hover: cor mais escura */
+.sortear-novamente-btn:hover {
+    background-color: #2980b9; /* Cor mais escura no hover */
+}
 
 /* Responsividade para os celulares */
 @media (max-width: 600px) {
