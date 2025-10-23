@@ -25,10 +25,6 @@ O objetivo deste projeto é proporcionar uma maneira simples e eficiente para re
 
 Este projeto foi desenvolvido para ser completamente responsivo, garantindo que a interface seja agradável em dispositivos móveis, tablets e desktops.
 
-## Link para acessá-lo 🔗
-
-https://mioj0kt.github.io/Site-Amigo-Oculto/
-
 ---
 
-Aproveite o sorteio de amigo oculto com o nosso projeto! Se tiver alguma dúvida ou sugestão, não hesite em abrir uma **issue**. 😊
+Aproveite o sorteio de amigo oculto com o meu projeto! Se tiver alguma dúvida ou sugestão, não hesite em abrir uma **issue**. 😊
